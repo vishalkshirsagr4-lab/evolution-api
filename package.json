@@ -1,0 +1,22 @@
+{
+  "name": "nezuko-whatsapp-bridge",
+  "version": "1.0.0",
+  "description": "Standalone Node.js WhatsApp bridge (whatsapp-web.js) for Nezuko AI, talking to an existing FastAPI backend over HTTP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.26.0",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.19.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "winston": "^3.14.2"
+  }
+}
